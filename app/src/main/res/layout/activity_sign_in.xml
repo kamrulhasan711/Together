@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/shadow"
     android:padding="16dp"
-    tools:context=".SignUpActivity">
+    tools:context=".SignInActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -25,6 +25,7 @@
             android:padding="20dp">
 
             <TextView
+                android:id="@+id/signInText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sign In"
@@ -36,6 +37,7 @@
                 android:layout_marginTop="10dp" />
 
             <EditText
+                android:id="@+id/signemailEt"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:hint="Enter your email"
@@ -46,6 +48,7 @@
                 android:background="@drawable/edit_text" />
 
             <EditText
+                android:id="@+id/signpassEt"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:hint="Enter your password"
@@ -56,6 +59,7 @@
                 android:background="@drawable/edit_text" />
 
             <Button
+                android:id="@+id/gobtn"
                 android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -77,6 +81,7 @@
                 android:layout_marginTop="46dp">
 
                 <TextView
+                    android:id="@+id/dontAct"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="I don't have an account! "
@@ -84,7 +89,7 @@
                     android:textSize="16sp" />
 
                 <TextView
-                    android:id="@+id/signUpText"
+                    android:id="@+id/signUpTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sign Up"
@@ -95,7 +100,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/forgotPasswordText"
+                android:id="@+id/forgotPasswordTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Forgot Password?"

@@ -26,6 +26,7 @@
             android:background="@color/white">
 
             <TextView
+                android:id="@+id/signuptxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sign Up"
@@ -37,6 +38,7 @@
                 android:layout_marginTop="40dp" />
 
             <EditText
+                android:id="@+id/nameEt"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:hint="Enter your name"
@@ -47,6 +49,7 @@
                 android:background="@drawable/edit_text" />
 
             <EditText
+                android:id="@+id/emailEt"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:hint="Enter your email"
@@ -57,6 +60,7 @@
                 android:background="@drawable/edit_text" />
 
             <EditText
+                android:id="@+id/passwordEt"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:hint="Enter your password"
@@ -67,6 +71,7 @@
                 android:background="@drawable/edit_text" />
 
             <EditText
+                android:id="@+id/conpassEt"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:hint="Confirm your password"
@@ -77,6 +82,7 @@
                 android:background="@drawable/edit_text" />
 
             <Button
+                android:id="@+id/submitBtn"
                 android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -98,6 +104,7 @@
                 android:layout_marginTop="26dp">
 
                 <TextView
+                    android:id="@+id/accounttxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="I have an account! "
@@ -106,7 +113,7 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/signInText"
+                    android:id="@+id/signInTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sign In"
