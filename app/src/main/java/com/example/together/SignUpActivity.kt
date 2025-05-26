@@ -1,10 +1,10 @@
-package com.example.togethe
+package com.example.together
+
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import com.example.together.R
 
 class SignUpActivity : AppCompatActivity() {
 
