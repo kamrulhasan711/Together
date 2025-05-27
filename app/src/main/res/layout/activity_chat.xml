@@ -1,11 +1,11 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:layout_margin="8dp"
     tools:context=".ChatActivity">
 
 
@@ -19,8 +19,8 @@
         android:gravity="center_vertical">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/back"
             android:contentDescription="Back" />
 
@@ -47,16 +47,16 @@
             android:layout_height="wrap_content" />
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:src="@drawable/add_call"
             android:contentDescription="Call" />
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@drawable/add"
-            android:layout_marginStart="16dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/menu"
+            android:layout_marginStart="18dp"
             android:contentDescription="Add Contact" />
     </LinearLayout>
 
@@ -91,36 +91,30 @@
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@drawable/add"
+            android:src="@drawable/add_file"
             android:contentDescription="Add" />
 
         <EditText
-            android:layout_width="0dp"
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="Text message"
-            android:padding="8dp"
+            android:padding="6dp"
             android:background="#6D6767"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp" />
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@drawable/smile"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/emoji"
             android:contentDescription="Emoji" />
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginStart="8dp"
-            android:src="@drawable/image"
-            android:contentDescription="Gallery" />
-
-        <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginStart="8dp"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="12dp"
             android:src="@drawable/voice"
             android:contentDescription="Voice" />
     </LinearLayout>
